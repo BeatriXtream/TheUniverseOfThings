@@ -1,1 +1,22 @@
 /* You can add global styles to this file, and also import other style files */
+body{
+  width: 100%;
+  margin: 0 auto;
+  background: url() no-repeat center center;
+}
+
+.gridHeader{
+  width: 100%;
+  display: grid;
+  height: 200px;
+  text-align: center;
+  grid-template-columns: 3;
+  grid-template-rows: 3;
+}
+
+header{
+  width: 100%;
+  height: 200px;
+  background-color: black;
+
+}
