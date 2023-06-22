@@ -1,7 +1,7 @@
 .gridHeader {
   width: 100%;
   display: grid;
-  height: 200px;
+  height: 140px;
   text-align: center;
   grid-template-columns: 3;
   grid-template-rows: 3;
@@ -9,12 +9,21 @@
 
 header {
   width: 100%;
-  height: 200px;
+  height: 150px;
   background-color: black;
+  justify-content: center;
 }
 
 h1 {
   color: #FF0000;
+}
+
+a{
+  text-decoration: none;
+}
+
+a:hover h1:hover{
+  color: gold;
 }
 
 .txtHeadHomepage {
@@ -28,10 +37,10 @@ h1 {
 }
 
 .imgLogo{
-  height: 175px;
-  width: 250px;
-  border-radius: 50%;
-  border-image: 2px solid #FF0000;
+  height: 120px;
+  width: 120px;
+  border-radius: 10%;
+  box-shadow: 0 0 0 2px gold;
 }
 
 .txtHeadFavorites {
