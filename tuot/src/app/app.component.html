@@ -3,7 +3,7 @@
   <app-banner></app-banner>
   <app-body></app-body>
 
-  <mat-grid-list cols="4" (mouseenter)="selectedPersonaje = null">
+  <mat-grid-list cols="5" (mouseenter)="selectedPersonaje = null">
     <mat-grid-tile *ngFor="let item of personajes" (mouseenter)="selectedPersonaje = item">
       <mat-card class="example-card">
         <mat-card-header>

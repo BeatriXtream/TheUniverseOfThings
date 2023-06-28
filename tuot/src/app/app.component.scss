@@ -10,18 +10,13 @@
 
  .example-card {
   width: 225px;
-  width: 350px;;
+  width: 300px;
   margin-top: 25px;
   border: 2.5px solid #FF0000;
   border-radius: 5%;
   background: url(../assets/img/imgFondoWeb/backImage.png);
   position: absolute;
 }
-
- .example-header-image {
-   background-image: url('https://external-content.duckduckgo.com/iu/?u=https%3A%2F%2Fs4.thcdn.com%2Fdesign-assets%2Fimages%2Flicensed-images%2Frickandmorty.png&f=1&nofb=1&ipt=d55e282379e0b4fae2413cc901e715e2ff3349627756a5d7948c11860ac659b4&ipo=images');
-   background-size: cover;
- }
 
  mat-card-subtitle{
   color: rgb(0, 0, 0);
@@ -63,11 +58,12 @@ img{
   bottom: 100%;
   left: 0;
   right: 0;
-  background-color: #292929d4;
+  background-color: #292929d1;
   overflow: hidden;
   width: 349px;
   height: 350px;
   transition: .5s ease;
+  border-radius: 5px;
 }
 
 .container:hover .overlay {
@@ -77,16 +73,14 @@ img{
 }
 
 .textInfo {
-  white-space: nowrap;
+  white-space: normal;
   color: rgb(255, 255, 255);
   font-size: 16px;
   position: relative;
   overflow: hidden;
-  top: 50%;
-  left: 50%;
-  transform: translate(-50%, -50%);
-  -ms-transform: translate(-50%, -50%);
   margin-left: 5px;
   margin-top: 15px;
-  text-overflow: clip;
+  font-size: 16px;
+  padding: 16px 32px;
+  border-radius: 5px;
   }
