@@ -1,7 +1,7 @@
 import { BodyComponent } from './share/body/body.component';
+import { FavoritesComponent } from './share/favorites/favorites.component';
 import { NgModule } from '@angular/core';
 import { RouterModule, Routes } from '@angular/router';
-
 
 const routes: Routes = [
   { path: '', component: BodyComponent },
