@@ -19,10 +19,7 @@ export class AppComponent implements OnInit {
     this.http.get('https://cdn.jsdelivr.net/gh/akabab/superhero-api@0.3.0/api/all.json').subscribe((data: any) => {
       this.personajes = data;
     });
-<<<<<<< HEAD
-=======
 
    console.log(this.personajes)
->>>>>>> 073b934bcb028f9826df3af89da4a6b9c208022a
   }
 }

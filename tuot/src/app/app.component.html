@@ -3,25 +3,14 @@
   <app-banner></app-banner>
   <app-body></app-body>
 
-<<<<<<< HEAD
-
-=======
->>>>>>> 073b934bcb028f9826df3af89da4a6b9c208022a
   <mat-grid-list cols="5" (mouseenter)="selectedPersonaje = null">
     <mat-grid-tile *ngFor="let item of personajes" (mouseenter)="selectedPersonaje = item">
       <mat-card class="example-card">
         <mat-card-header>
-<<<<<<< HEAD
-          <img mat-card-image [src]="item.images.sm" alt="Photo personaje">
-        </mat-card-header>
-        <mat-card-content>
-          <mat-card-subtitle class="txtHero">{{ item.id }} {{ item.name }}</mat-card-subtitle>
-=======
             <img mat-card-image [src]="item.images.sm" alt="Photo personaje">
         </mat-card-header>
         <mat-card-content>
         <mat-card-subtitle class="txtHero">{{ item.id }} {{ item.name }}</mat-card-subtitle>
->>>>>>> 073b934bcb028f9826df3af89da4a6b9c208022a
 
           <button mat-button>
             <svg xmlns="http://www.w3.org/2000/svg" width="30" height="30" viewBox="0 0 512 512">
@@ -30,24 +19,6 @@
             </svg>
           </button>
 
-<<<<<<< HEAD
-
-          <div class="overlay" *ngIf="selectedPersonaje === item">
-            <div class="textInfo">
-              <p>Nombre: {{ item.biography.fullName }}</p>
-              <p>Genero: {{ item.appearance.gender }}</p>
-              <p>Raza: {{ item.appearance.race }}</p>
-              <p>Poder: {{ item.powerstats.power }}</p>
-              <p>Ocupacion: {{ item.work.occupation }}</p>
-            </div>
-          </div>
-
-
-        </mat-card-content>
-      </mat-card>
-    </mat-grid-tile>
-  </mat-grid-list>
-=======
           <div class="overlay" *ngIf="selectedPersonaje === item">
             <div class="textInfo">
              <p>Nombre: {{ item.biography.fullName }}</p>
@@ -63,6 +34,5 @@
     </mat-grid-tile>
   </mat-grid-list>
 
->>>>>>> 073b934bcb028f9826df3af89da4a6b9c208022a
   <app-footer></app-footer>
 </div>
