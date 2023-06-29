@@ -1,36 +1,50 @@
- .container {
-   background: linear-gradient(to right, rgb(241, 230, 165), rgb(245, 138, 88));
-   width: 100%;
-   position: relative;
- }
-
- mat-grid-list{
+.container {
+  background: linear-gradient(to right, rgba(232, 204, 173, 0.913), rgb(245, 159, 88));
   width: 100%;
- }
-
- .example-card {
-  width: 225px;
-  width: 300px;
-  margin-top: 25px;
-  border: 2.5px solid #FF0000;
-  border-radius: 5%;
-  background: url(../assets/img/imgFondoWeb/backImage.png);
-  position: absolute;
+  position: relative;
 }
 
- mat-card-subtitle{
-  color: rgb(0, 0, 0);
-  font-size: 21px;
-  margin-top: 5px;
- }
+mat-grid-list{
+ width: 100%;
+}
 
- button svg{
-  background: #78e178;
-  width: 30px;
-  height: 30px;
-  border-radius: 5px;
-  margin-top: 15px;
- }
+.example-card {
+ width: 225px;
+ width: 250px;
+ margin-top: 25px;
+ border: 2.5px solid #FF0000;
+ border-radius: 5%;
+ background: url(../assets/img/imgFondoWeb/backImage.png);
+ position: absolute;
+}
+
+mat-card-subtitle{
+ color: rgb(0, 0, 0);
+ font-size: 21px;
+ margin-top: 5px;
+ margin: 0 auto 0 auto;
+}
+
+button svg{
+ background: #78e178;
+ width: 30px;
+ height: 30px;
+ border-radius: 5px;
+ margin-top: 15px;
+}
+
+mat-card-header{
+ border-radius: 5px;
+ justify-content: center;
+}
+
+mat-card-content .matCardImg{
+ border-radius: 5%;
+}
+
+// .txtHero{
+//  text-align: left;
+// }
 
  mat-card-header{
   border-radius: 5px;
